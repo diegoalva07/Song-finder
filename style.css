@@ -1,0 +1,39 @@
+html {
+
+    background: #2A2B2E;
+}
+
+body {
+
+    background: #5A5A66;
+    width: auto;
+    grid-template-areas: "header header header"
+                          "content content content";
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+
+}
+
+
+header{
+    grid-row: header;
+    grid-column: header;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+input[type="text"]{
+    margin: 23px;
+}
+
+#songs{
+    display: grid;
+    grid-row: content;
+    grid-column: content;
+    
+    
+}
